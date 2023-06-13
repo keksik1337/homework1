@@ -47,7 +47,8 @@ public class FlightTest {
         }
     }
 
-    @Test void flightPriceTest(){
+    @Test 
+    public void flightPriceTest(){
         LOG.info("This test checks whether flight departure date matches with date in search criteria");
 
         FlightsPage flightsPage = new FlightsPage(baseFunction);
