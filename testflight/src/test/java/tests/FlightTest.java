@@ -26,7 +26,7 @@ public class FlightTest {
     private final String FLIGHTS_URL = "https://www.oojo.com/result/NYC-LHE/2023-07-08/business";
 
     @BeforeEach
-    public void testPrepare() {
+    public void beforeTest() {
         baseFunction.goToUrl(FLIGHTS_URL);
         subscriptionModal.closeSubscriptionModal();
         cookiesBanner.acceptCookies();
